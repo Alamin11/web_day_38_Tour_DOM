@@ -5,3 +5,17 @@ h1 {
 h2 {
     color: blue;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary-nav ul {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+
+    /* flex-direction: ; */
+}
